@@ -20,6 +20,21 @@ dependencies:
   - tensorboardx=1.4
   - tqdm=4.28.1
   - trimesh=2.37.7
+  - torch==1.12.1
+  - torchvision==0.13.1
   - pip:
     - h5py==2.9.0
     - plyfile==0.7
+    - transformers
+    - diffusers
+    - accelerate
+    - huggingface-hub
+    - ninja
+    - xatlas
+    - imageio
+    - matplotlib
+    - pyrallis
+    - loguru
+    - tqdm
+    - einops
+    - opencv-python
